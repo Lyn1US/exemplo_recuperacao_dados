@@ -1,0 +1,183 @@
+{
+  "bd_tbl_cliente" : [ null, {
+    "bd_endereco" : "Rua Doutor Carlos Castilho Cabral 81",
+    "bd_id_cliente" : 1,
+    "bd_instagram" : "vinicius_g.m.gasparini",
+    "bd_nomecliente" : "Vinícius Gabriel Moreira Gasparini",
+    "bd_telefone" : "(15) 98823-5838"
+  }, {
+    "bd_endereco" : "Rua yyy 400",
+    "bd_id_cliente" : 2,
+    "bd_instagram" : "nih_alves013",
+    "bd_nomecliente" : "Nicole da Silva Alves de Oliveira",
+    "bd_telefone" : "(15) 99174-6557"
+  }, {
+    "bd_endereco" : "Rua zzz 00",
+    "bd_id_cliente" : 3,
+    "bd_instagram" : "lofernandess",
+    "bd_nomecliente" : "Lorena Fernandes Ferreira",
+    "bd_telefone" : "(15) 99151-3170"
+  }, {
+    "bd_endereco" : "Rua xxx 00",
+    "bd_id_cliente" : 4,
+    "bd_instagram" : "carlinhoplayplay",
+    "bd_nomecliente" : "Carlos Henrique Lucena Barros",
+    "bd_telefone" : "(15) 99789-9874"
+  }, {
+    "bd_endereco" : "Rua www 00",
+    "bd_id_cliente" : 5,
+    "bd_instagram" : "lyn1ker",
+    "bd_nomecliente" : "Lyniker Lucas Massola Bueno",
+    "bd_telefone" : "(15) 99852-4950"
+  }, {
+    "bd_endereco" : "Rua sss 00",
+    "bd_id_cliente" : 6,
+    "bd_instagram" : "vini_mariozi",
+    "bd_nomecliente" : "Vinícius Reimberg Mariozi",
+    "bd_telefone" : "(15) 99150-7511"
+  } ],
+  "bd_tbl_hierarquia" : [ null, {
+    "bd_id_hierarquia" : 1,
+    "bd_nomehierarquia" : "Administrador(a)"
+  }, {
+    "bd_id_hierarquia" : 2,
+    "bd_nomehierarquia" : "Funcionário(a)"
+  } ],
+  "bd_tbl_pedido" : [ null, {
+    "bd_dataentrega" : "20/09/2021",
+    "bd_datapedido" : "15/09/2021",
+    "bd_desconto" : 0.0,
+    "bd_enderecoentrega" : "Rua yyy 400",
+    "bd_entregue" : "Não",
+    "bd_formapagamento" : "Dinheiro",
+    "bd_frete" : 0.0,
+    "bd_id_cliente" : 1,
+    "bd_id_pedido" : 1,
+    "bd_id_usuario" : 1,
+    "bd_observacao" : "Cliente virá buscar",
+    "bd_pagamento" : "Não",
+    "bd_valortotal" : 12.8
+  }, {
+    "bd_dataentrega" : "20/09/2021",
+    "bd_datapedido" : "16/09/2021",
+    "bd_desconto" : 0.0,
+    "bd_enderecoentrega" : "Rua zzz 00",
+    "bd_entregue" : "Não",
+    "bd_formapagamento" : "Pix",
+    "bd_frete" : 0.0,
+    "bd_id_cliente" : 3,
+    "bd_id_pedido" : 2,
+    "bd_id_usuario" : 1,
+    "bd_observacao" : "Nenhum observação",
+    "bd_pagamento" : "Sim",
+    "bd_valortotal" : 13.5
+  } ],
+  "bd_tbl_produto" : [ null, {
+    "bd_id_produto" : 1,
+    "bd_nomeproduto" : "Pão de mel - G",
+    "bd_valorunit" : 4.5
+  }, {
+    "bd_id_produto" : 2,
+    "bd_nomeproduto" : "Brownie",
+    "bd_valorunit" : 3.8
+  }, {
+    "bd_id_produto" : 3,
+    "bd_nomeproduto" : "Brownie - recheado",
+    "bd_valorunit" : 4.5
+  } ],
+  "bd_tbl_produtopedido" : [ null, {
+    "bd_id_pedido" : 1,
+    "bd_id_produto" : 2,
+    "bd_id_produtopedido" : 1,
+    "bd_id_sabor" : 1,
+    "bd_quantidade" : 1,
+    "bd_valorunit" : 3.8
+  }, {
+    "bd_id_pedido" : 1,
+    "bd_id_produto" : 3,
+    "bd_id_produtopedido" : 2,
+    "bd_id_sabor" : 2,
+    "bd_quantidade" : 1,
+    "bd_valorunit" : 4.5
+  }, {
+    "bd_id_pedido" : 1,
+    "bd_id_produto" : 3,
+    "bd_id_produtopedido" : 3,
+    "bd_id_sabor" : 3,
+    "bd_quantidade" : 1,
+    "bd_valorunit" : 4.5
+  }, {
+    "bd_id_pedido" : 2,
+    "bd_id_produto" : 3,
+    "bd_id_produtopedido" : 1,
+    "bd_id_sabor" : 1,
+    "bd_quantidade" : 3,
+    "bd_valorunit" : 4.5
+  } ],
+  "bd_tbl_sabor" : [ null, {
+    "bd_id_sabor" : 1,
+    "bd_sabor" : "Tradicional"
+  }, {
+    "bd_id_sabor" : 2,
+    "bd_sabor" : "Doce de leite"
+  }, {
+    "bd_id_sabor" : 3,
+    "bd_sabor" : "50% cacau"
+  } ],
+  "bd_tbl_usuario" : [ null, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : "1",
+    "bd_nomeusuario" : "carlos",
+    "bd_senha" : "0602"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 2,
+    "bd_nomeusuario" : "Lyniker",
+    "bd_senha" : "1708"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 3,
+    "bd_nomeusuario" : "gadaoguerreiro",
+    "bd_senha" : "6969"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 4,
+    "bd_nomeusuario" : "Mariozi",
+    "bd_senha" : "789"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 5,
+    "bd_nomeusuario" : "Bruno",
+    "bd_senha" : "0601"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 6,
+    "bd_nomeusuario" : "teste1",
+    "bd_senha" : "1000"
+  }, {
+    "bd_id_hierarquia" : "2",
+    "bd_id_usuario" : 7,
+    "bd_nomeusuario" : "teste2",
+    "bd_senha" : "2000"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 8,
+    "bd_nomeusuario" : "Gasparini",
+    "bd_senha" : "1601"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 9,
+    "bd_nomeusuario" : "Nicole",
+    "bd_senha" : "2804"
+  }, {
+    "bd_id_hierarquia" : "1",
+    "bd_id_usuario" : 10,
+    "bd_nomeusuario" : "Lorena",
+    "bd_senha" : "2711"
+  }, {
+    "bd_id_hierarquia" : "2",
+    "bd_id_usuario" : 11,
+    "bd_nomeusuario" : "Minato",
+    "bd_senha" : "6969"
+  } ]
+}
